@@ -18,7 +18,7 @@ export const AllAcounts:React.FC=()=>{
         <PageContainer>
             <ProcessPageLayout 
                 header={
-                <div>
+                <div className={styles.header}>
                     <h1 className={styles.titulo}>Todas as contas</h1> 
                     <div className={styles.box1}>                        
                         <img src={Icon1}/> 
@@ -34,7 +34,7 @@ export const AllAcounts:React.FC=()=>{
                             <img className={styles.Lupa} src={Lupa}/>
                         </div> 
                                               
-                        <div className={styles.box1}>                        
+                        <div className={styles.box3}>                        
                             <img className={styles.Icon1} src={Icon1}/> 
                             <img className={styles.check2} src={Check}/>             
                         </div>      

@@ -1,22 +1,23 @@
 import { makeStyles } from '@material-ui/core'
 
 export const useStyles = makeStyles({
-    titulo:{    
-          
+    header:{
+        height:117.61,      
+            
+    },
+    titulo:{          
         fontFamily:"sans-serif",
         fontSize: 20,          
-        textAlign: "left",         
-        
+        textAlign: "left",        
     }, 
     check:{
         marginRigth:28,
-        marginLeft:28,
-        
-    },   
-    box1:{       
-       display:"flex",
-       
-    },
+        marginLeft:28,        
+    }, 
+    box1:{        
+        display:"flex",  
+        justifyContent:"space-between"       
+    },    
     caixa:{
         height: 32,
         width: 288,
@@ -30,13 +31,13 @@ export const useStyles = makeStyles({
         fontSize:12,
         lineHeight:14,
         color:"text.disabled",
-        paddingLeft:35,
+        paddingLeft:35,        
     },
     input:{
         display:"flex",
-        marginTop:-30,  
-        alignItems:"center" 
-
+        marginTop:-30,
+        marginLeft:-270,        
+        justifyContent:"center" 
     },  
     Lupa:{
         flexDirection:"row",
@@ -45,17 +46,22 @@ export const useStyles = makeStyles({
     },
     box2:{
         display:"flex",
+        justifyContent:"space-between"
     },
     fix:{
         marginRigth:28,
         marginLeft:28,
     },
+    box3:{
+        display:"flex",
+        marginTop:55,
+        justifyContent:"space-between"
+    },    
     Icon1:{
-        marginTop:55,
+        
     },
-    check2:{
-        marginRigth:28,
-        marginLeft:28,
-        marginTop:55,
+    check2:{        
+        
+                  
     },
 })
